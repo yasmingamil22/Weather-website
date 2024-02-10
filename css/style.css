@@ -1,0 +1,218 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+  }
+:root{
+    --main-color:#F7E987;
+}
+.home{
+    background-image: linear-gradient(to right top, #252b48, #2c3450, #343d58, #3c4761, #445069);    min-height: 100vh;
+    min-height: 100vh;
+}
+
+
+nav img{
+    width: 70px;
+}
+nav h4{
+    color: #f2f2f5;
+    font-weight: 600;
+}
+nav ul a{
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    transition: color .5s;
+}
+nav ul .active{
+  color: var(--main-color) !important;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul li a:hover{
+    color: var(--main-color) !important;
+
+}
+
+
+.home .search-location{
+    position: relative;
+}
+.home .search-location input[type="text"] {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+
+}
+
+.home input {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.home .search-location input[type="button"]{
+    padding: 0px 40px;
+    position: absolute;
+    top: 5px;
+    right:  20px;
+    bottom: 5px;
+    background-color: #F7E987;
+    
+}
+
+
+
+
+small {
+    font-size: 80%;
+  }
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  img {
+    border: 0;
+  }
+  
+  .custom {
+    color: #009ad8;
+    margin: 20px 0;
+  }
+  .custom1 {
+    color: #cc910d;
+  }
+
+  .forecast-container {
+    width: 100%;
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .forecast-container .forecast {
+    width: 33.33%;
+  }
+  .forecast-container .forecast:nth-child(even) {
+    background-color: #262936;
+  }
+  @media screen and (max-width: 990px) {
+    .forecast-container .forecast {
+      display: block;
+      width: 100%;
+      float: left;
+    }
+  }
+  
+  .forecast-container .forecast.today .forecast-header:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+  }
+  .forecast-container .forecast.today .forecast-header .day {
+    float: left;
+  }
+  .forecast-container .forecast.today .forecast-header .date {
+    float: right;
+  }
+  .forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+  }
+  .forecast-container .forecast.today .degree .num,
+  .forecast-container .forecast.today .degree .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+  }
+  .forecast-container .forecast.today span {
+    margin-right: 20px;
+  }
+  .forecast-container .forecast.today span img {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  @media screen and (max-width: 990px) {
+    .forecast-container .forecast.today {
+      display: block;
+      width: 100%;
+    }
+  }
+  .forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .forecast-container .forecast .forecast-icon {
+    height: 50px;
+  }
+  .forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    text-align: center;
+  }
+  .forecast-container .forecast .forecast-content .forecast-icon {
+    margin-bottom: 20px;
+  }
+  .forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .forecast-container .forecast .forecast-content small {
+    font-size: 16px;
+    font-size: 1.1428571429em;
+  }
+  
+  .fullwidth-block {
+    padding: 70px 0;
+  }
+  .fullwidth-block .section-title {
+    font-size: 36px;
+    font-size: 2.5714285714em;
+    font-weight: 300;
+    color: white;
+  }
+  
+
+
